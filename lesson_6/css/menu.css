@@ -1,0 +1,44 @@
+.menu {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    right: 0;
+    height: 64px;
+    padding: 10px 80px;
+    color: #fff;
+    z-index: 8;
+}
+
+.menu .logo {
+    display: inline-block;
+}
+
+.menu .logo img {
+    display: block;
+    width: 44px;
+}
+
+.menu-inner {
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+}
+.menu-inner .right {
+    display: flex;
+}
+.menu-inner .actions-ul {
+    display: flex;
+}
+
+.menu-inner .actions-li {
+    margin: 0 10px;
+}
+
+.menu-inner .actions-link {
+    display: block;
+    height: 44px;
+    padding: 0 18px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 44px;
+}

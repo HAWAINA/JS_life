@@ -1,0 +1,16 @@
+.menu {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    right: 0;
+    height: 64px;
+    padding: 10px 80px;
+    color: #fff;
+}
+.menu .logo {
+    display: inline-block;
+}
+.menu .logo img {
+    display: block;
+    width: 40px;
+}

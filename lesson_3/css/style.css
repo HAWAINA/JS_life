@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    width: 500px;
+    height: 200px;
+}
+.child {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    z-index: 1;
+}
+.child-2 {
+    width: 80px;
+    height: 80px;
+    background-color: aquamarine;
+}
+.one {
+    /*position: static;*/
+    position: relative;
+    background-color: red;
+    margin: 20px auto 30px;
+    padding: 20px;
+    border-top: 3px solid yellow;
+    border-right: 3px dashed blue;
+    border-bottom: 3px dotted green;
+    border-left: 3px solid purple;
+    /*border-width: 3px;*/
+    border-radius: 10px;
+    /*border-top-left-radius: 10px;*/
+    /*border-top-right-radius: 10px;*/
+    /*border-bottom-right-radius: 10px;*/
+    /*border-bottom-left-radius: 10px;*/
+    /*border-style: solid;*/
+    /*border-color: yellow;*/
+    /*margin-top: 20px;*/
+    /*margin-right: 20px;*/
+    /*margin-bottom: 20px;*/
+    /*margin-left: 20px;*/
+    /*padding-top: 20px;*/
+    /*padding-right: 20px;*/
+    /*padding-bottom: 20px;*/
+    /*padding-left: 20px;*/
+}
+.two {
+    background-color: blue;
+    margin: 20px auto 30px;
+}
+.three {
+    background-color: brown;
+}

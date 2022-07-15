@@ -1,0 +1,22 @@
+div {
+    /* color: #FA3C19; */
+    /*color: rgb(250,60,25);*/
+    color: rgba(250,60,25,.8);
+    font: 20px Arial, sans-serif;
+    /*font-size: 20px;*/
+    text-indent: 58px;
+    /*text-align: left;*/
+    /*text-align: right;*/
+    /*text-align: center;*/
+    text-align: justify;
+    /*width: 1000px;*/
+    width: 50%;
+    /*height: 80px;*/
+}
+/* 0123456789abcdef */
+.one {
+    color: black;
+}
+#one {
+    color: brown;
+}

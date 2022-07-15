@@ -1,0 +1,6 @@
+
+.screen-main {
+    height: 100vh;
+    background: url('../images/main-screen__bgc.png') no-repeat center;
+    background-size: cover;
+}

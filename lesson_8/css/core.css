@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: #000;
+    font: 14px 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    height: 44px;
+    padding: 0 30px;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    line-height: 42px;
+    text-decoration: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+}
+.btn.btn-purple {
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+.btn.btn-red {
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+.btn.btn-transparent {
+    border-color: #fff;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+@media (max-width: 1300px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+
+.text-white {
+    color: #fff;
+}
+
+.title {
+    position: relative;
+    padding-left: 115px;
+    font: 48px 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+.title::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -22px;
+    left: 0;
+    width: 90px;
+    height: 90px;
+    background: url('../images/title-round.svg') no-repeat center;
+    background-size: contain;
+}
+.title.rotate::before {
+    transform: rotate(180deg);
+}
+/*.title span {*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    top: -22px;*/
+/*    left: 0;*/
+/*    width: 90px;*/
+/*}*/
+/*.title span img {*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*}*/

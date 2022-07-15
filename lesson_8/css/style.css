@@ -1,0 +1,150 @@
+
+.screen-main {
+    position: relative;
+    height: 100vh;
+    background: url('../images/main-screen__bgc.png') no-repeat center;
+    background-size: cover;
+}
+@media (max-width: 1024px) {
+    .screen-main {
+        height: auto;
+    }
+}
+.screen-main .inner {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+@media (max-width: 1024px) {
+    .screen-main .inner {
+        padding: 120px 0 60px;
+    }
+}
+.screen-main h1 {
+    max-width: 920px;
+    margin-bottom: 50px;
+    font: 64px 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 90px;
+    color: #fff;
+}
+@media (max-width: 1024px) {
+    .screen-main h1 {
+        max-width: 450px;
+        font: 34px 'Roboto', sans-serif;
+        font-weight: bold;
+        line-height: 43px;
+    }
+}
+/*.screen-main h1::first-letter {*/
+/*    text-decoration: underline;*/
+/*}*/
+.timer {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+@media (max-width: 1024px) {
+    .timer {
+        display: none;
+    }
+}
+.timer-block {
+    width: 115px;
+    height: 115px;
+    padding: 20px;
+    background-color: #121212;
+    text-align: center;
+}
+.timer-block .num {
+    font: 36px 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 50px;
+    color: #fff;
+}
+.timer-block .caption {
+    text-transform: capitalize;
+    color: #717171;
+}
+
+.timeline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #121212;
+    color: #717171;
+}
+@media (max-width: 1024px) {
+    .timeline {
+        position: static;
+    }
+}
+.timeline-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 130px;
+}
+.timeline-inner .info {
+    width: 255px;
+}
+.timeline-inner .info-block {
+    display: flex;
+    justify-content: space-between;
+}
+.timeline-inner .info-block:first-child {
+    margin-bottom: 10px;
+}
+.timeline-inner .timeline-block {
+    width: 440px;
+}
+
+.test {
+    padding: 60px 0;
+}
+
+.msi {
+    padding: 80px 0;
+}
+.msi .title {
+    margin-bottom: 60px;
+}
+.msi-elements {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.msi-elements::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    height: 1px;
+    background-color: #4C4C4C;
+}
+.msi-elements .item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 150px;
+}
+.msi-elements .item img {
+    display: block;
+    width: 200px;
+}
+.msi-elements .item:not(:nth-child(4n)) {
+    border-right: 1px solid #4C4C4C;
+}
+.msi input::placeholder {
+    color: red;
+}
+
+/* Псевдоклассы */
+/*:nth-child()*/
+/*:first-child*/
+/*:last-child*/
